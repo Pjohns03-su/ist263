@@ -1,0 +1,67 @@
+<!DOCTYPE <html>
+<html>
+    <head>
+        <title>Week 4 Notes</title>
+        <meta charset="utf-8">
+        <style>
+            th, td {border: 1px solid black}
+        </style>
+    </head>
+    <body>
+        <h1>Tables and Forms</h2>
+            <h2>tables</h2>
+                <table>
+                    <caption>World population </caption>
+                    <tr> <!--tr stands of table row-->
+                        <th>country</th> <!--th= table heading-->
+                        <th>population</th>
+                        <th>% of population</th>
+                    </tr>
+                    <tr>
+                        <td>China</td> <!--td is table data-->
+                        <td>1,403,830,640</td>
+                        <td>18%</td>
+                    </tr>
+                    <tr>
+                        <td>India</td>
+                        <td>1,365,528</td>
+                        <td>17.5%</td>
+                    </tr>
+                    <tr>
+                        <td>United States</td>
+                        <td>1,330,070,331</td>
+                        <td>4.23%</td>
+                    </tr>
+                </table><br>
+                
+                <rm action=""method="post">
+                    <!--post sends form data on the back end -->
+                    <!--for value must match id value to link lable and input element-->
+                    <form action=""> method= "post" 
+                        <label for="fullname"> Full Name </label>
+                        <input type="text" id="fullname" name="Full name"><br>
+                        <label for="instruction"> Special Instructions:</label>
+                        <textarea id="instruction" name="instuctions" rows="3" cols="60"></textarea><br>
+                       
+                        <p>Below write Delivery Instructions:</p>
+                        <input type="radio" id="pickup" name="pickupdelivery" value="pickup">
+                        <lable for>Pickup</lable><br>
+                        <input type="radio" id="Deilvery" name="pickupdelivery" value="delivery">
+                        <lable for>Deilvery</lable>
+              
+                        <p>Do you want extra sauce?</p>
+                        <input type="checkbox" id="extra sauce" value="needs extra sauce">
+                        <label for="extrasauce"> Extra sauce</label><br>
+                        
+                        <label for="neighborhood">Neighborhood</label><br>
+                        <select id="neighborhood" name="neighborhood">
+                          <option value="westcott">Wescott</option>
+                          <option value="downtown">Downtown</option>
+                          <option value="eastwood">Eastwood</option>
+                        </select><br>
+                        <input type="submit" value="send form"
+                    </form>
+                    
+      
+    </body
+</html>
