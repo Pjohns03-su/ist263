@@ -1,0 +1,15 @@
+/* Group selector will style alll */
+h1 {color:plum
+    font-size 80%;
+    font-family:Arial,Helvetica,sans-serif
+}
+/* p {color: cadetblue;}
+this is our basic element selector, every P on the page gets styled*/
+
+p a{color: darkseagreen;}
+
+/*this styels the id */
+#secondparagraph {color:chartreuse}
+
+/*this styels the class */
+.purpletext {color:purple}
